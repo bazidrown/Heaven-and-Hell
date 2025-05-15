@@ -83,7 +83,7 @@ if MAP_CONSTANTS
 	#const BASE_FOREST_BLEND_A 111
 	#const BASE_FOREST_BLEND_B 76
 
-	#const BASE_TERRAIN 100
+	#const BASE_TERRAIN 42
 	#const BASE_BLEND_A 76
 	#const BASE_BLEND_B 3
 	#const BASE_BLEND_C 101
@@ -2282,6 +2282,7 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 	}
 
 <TERRAIN_GENERATION>
+#const WETROCK 82
 	if THEME_AMERICAN
 		color_correction CC_JUNGLE
 	elseif THEME_COLD
@@ -2299,6 +2300,7 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 	elseif THEME_AUTUMN_COLD
 		color_correction CC_WINTER
 	endif
+
 
 	create_terrain BASE_FOREST
 	{
@@ -2400,7 +2402,7 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 		terrain_mask 2
 	}
 
-	create_terrain WATER_BLEND_A
+	create_terrain DLC_WATER4
 	{
 		base_terrain WATER_A
 		land_percent 4
@@ -2409,16 +2411,16 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 		terrain_mask 1
 	}
 
-	create_terrain WATER_BLEND_B
+	create_terrain DLC_BLACK
 	{
 		base_terrain WATER_A
-		land_percent 2
+		land_percent 1
 		number_of_clumps 16
 		set_scale_by_groups
 		terrain_mask 1
 	}
 
-	create_terrain WATER_BLEND_C
+	create_terrain DEEP_WATER
 	{
 		base_terrain WATER_A
 		land_percent 1
@@ -2439,6 +2441,12 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 	}
 
 <OBJECTS_GENERATION>
+#const SMOKE 1308
+#const FLAME_A 1333
+#const FLAME_B 1334
+#const FLAME_C 1335
+#const FLAME_D 1336
+
 	if TERRAIN_DEBUGGING
 	else
 		if PRELIMINARIES
