@@ -2302,14 +2302,6 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 		color_correction CC_WINTER
 	endif
 
-		create_terrain LAVA
-	{
-		base_terrain BASE_TERRAIN
-		land_percent 1
-		number_of_clumps 10
-		set_scale_by_groups
-		set_avoid_player_start_areas 50
-	}
 
 	create_terrain BASE_FOREST
 	{
