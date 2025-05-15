@@ -2458,47 +2458,7 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 	}
 
 <OBJECTS_GENERATION>
-create_object SMOKE
-{
-	number_of_objects 3699
-	temp_min_distance_group_placement 3
-	terrain_to_place_on BEACH_ROCK_UNSAILABLE
-	set_gaia_object_only
-	ignore_terrain_restrictions
-	second_object FLAME_B
-}
-create_object SMOKE
-{
-	number_of_objects 3699
-	temp_min_distance_group_placement 2
-	terrain_to_place_on YELLOW_DEEP_WATER
-	set_gaia_object_only
-	ignore_terrain_restrictions
-}
-create_object FLAME_D
-{
-	number_of_objects 100
-	temp_min_distance_group_placement 5
-	terrain_to_place_on BEACH_ROCK_UNSAILABLE
-	set_gaia_object_only
-	ignore_terrain_restrictions
-}
-create_object FLAME_C
-{
-	number_of_objects 100
-	temp_min_distance_group_placement 5
-	terrain_to_place_on BEACH_ROCK_UNSAILABLE
-	set_gaia_object_only
-	ignore_terrain_restrictions
-}
-create_object SKELETON
-{
-	number_of_objects 100
-	temp_min_distance_group_placement 5
-	terrain_to_place_on BEACH_ROCK_UNSAILABLE
-	set_gaia_object_only
-	ignore_terrain_restrictions
-}
+
 	if TERRAIN_DEBUGGING
 	else
 		if PRELIMINARIES
@@ -5525,3 +5485,44 @@ create_object SKELETON
 			endif
 		endif
 	endif
+  create_object SMOKE
+{
+	number_of_objects 3699
+	temp_min_distance_group_placement 3
+	terrain_to_place_on BEACH_ROCK_UNSAILABLE
+	set_gaia_object_only
+	ignore_terrain_restrictions
+	second_object FLAME_B
+}
+create_object SMOKE
+{
+	number_of_objects 3699
+	temp_min_distance_group_placement 2
+	terrain_to_place_on YELLOW_DEEP_WATER
+	set_gaia_object_only
+	ignore_terrain_restrictions
+}
+create_object FLAME_D
+{
+	number_of_objects 100
+	temp_min_distance_group_placement 5
+	terrain_to_place_on BEACH_ROCK_UNSAILABLE
+	set_gaia_object_only
+	ignore_terrain_restrictions
+}
+create_object FLAME_C
+{
+	number_of_objects 100
+	temp_min_distance_group_placement 5
+	terrain_to_place_on BEACH_ROCK_UNSAILABLE
+	set_gaia_object_only
+	ignore_terrain_restrictions
+}
+create_object SKELETON
+{
+	number_of_objects 100
+	temp_min_distance_group_placement 5
+	terrain_to_place_on BEACH_ROCK_UNSAILABLE
+	set_gaia_object_only
+	ignore_terrain_restrictions
+}
