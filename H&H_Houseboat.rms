@@ -2400,7 +2400,25 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 		set_scale_by_groups
 		terrain_mask 2
 	}
-
+	create_terrain YELLOW_DEEP_WATER
+	{
+		base_terrain BASE_TERRAIN
+		number_of_tiles 50
+		number_of_clumps 4
+		set_scale_by_groups
+		set_avoid_player_start_areas 36
+		spacing_to_other_terrain_types 4
+		set_flat_terrain_only
+	}
+		create_terrain DLC_WATER4
+	{
+		base_terrain YELLOW_DEEP_WATER
+		number_of_tiles 50
+		number_of_clumps 4
+		set_scale_by_groups
+		set_avoid_player_start_areas 36
+		terrain_mask 1
+	}
 	create_terrain DLC_WATER4
 	{
 		base_terrain WATER_A
@@ -2448,6 +2466,14 @@ create_object SMOKE
 	set_gaia_object_only
 	ignore_terrain_restrictions
 	second_object FLAME_B
+}
+create_object SMOKE
+{
+	number_of_objects 3699
+	temp_min_distance_group_placement 2
+	terrain_to_place_on YELLOW_DEEP_WATER
+	set_gaia_object_only
+	ignore_terrain_restrictions
 }
 create_object FLAME_D
 {
