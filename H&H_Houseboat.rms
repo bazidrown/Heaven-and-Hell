@@ -2282,7 +2282,6 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 	}
 
 <TERRAIN_GENERATION>
-#const WETROCK 82
 	if THEME_AMERICAN
 		color_correction CC_JUNGLE
 	elseif THEME_COLD
@@ -2382,11 +2381,11 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 		terrain_mask 1
 	}
 
-	create_terrain BASE_BLEND_C
+	create_terrain BEACH_ROCK_UNSAILABLE
 	{
 		base_terrain BASE_TERRAIN
-		land_percent 1
-		number_of_clumps 4
+		land_percent 2
+		number_of_clumps 8
 		set_scale_by_groups
 		set_avoid_player_start_areas 36
 		spacing_to_other_terrain_types 4
@@ -2441,12 +2440,39 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 	}
 
 <OBJECTS_GENERATION>
-#const SMOKE 1308
-#const FLAME_A 1333
-#const FLAME_B 1334
-#const FLAME_C 1335
-#const FLAME_D 1336
-
+create_object SMOKE
+{
+	number_of_objects 3699
+	temp_min_distance_group_placement 3
+	terrain_to_place_on BEACH_ROCK_UNSAILABLE
+	set_gaia_object_only
+	ignore_terrain_restrictions
+	second_object FLAME_B
+}
+create_object FLAME_D
+{
+	number_of_objects 100
+	temp_min_distance_group_placement 5
+	terrain_to_place_on BEACH_ROCK_UNSAILABLE
+	set_gaia_object_only
+	ignore_terrain_restrictions
+}
+create_object FLAME_C
+{
+	number_of_objects 100
+	temp_min_distance_group_placement 5
+	terrain_to_place_on BEACH_ROCK_UNSAILABLE
+	set_gaia_object_only
+	ignore_terrain_restrictions
+}
+create_object SKELETON
+{
+	number_of_objects 100
+	temp_min_distance_group_placement 5
+	terrain_to_place_on BEACH_ROCK_UNSAILABLE
+	set_gaia_object_only
+	ignore_terrain_restrictions
+}
 	if TERRAIN_DEBUGGING
 	else
 		if PRELIMINARIES
