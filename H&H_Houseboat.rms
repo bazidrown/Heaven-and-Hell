@@ -2282,7 +2282,6 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 	}
 
 <TERRAIN_GENERATION>
-#const LAVA 99
 #const WETROCK 82
 	if THEME_AMERICAN
 		color_correction CC_JUNGLE
@@ -2447,15 +2446,6 @@ effect_amount DISABLE_TECH TC_TECH ATTR_DISABLE 187
 #const FLAME_B 1334
 #const FLAME_C 1335
 #const FLAME_D 1336
-create_object PH_GENERIC_ON
-{
-	terrain_to_place_on LAVA
-	number_of_objects 100
-	min_distance_group_placement 6
-	ignore_terrain_restrictions
-	set_gaia_object_only
-	second_object SMOKE
-}
 
 	if TERRAIN_DEBUGGING
 	else
