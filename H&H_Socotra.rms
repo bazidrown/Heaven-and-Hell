@@ -732,12 +732,15 @@ create_terrain DLC_DRYGRASS
 endif
 
 <OBJECTS_GENERATION>
+if REGICIDE
+else
 create_object KING
   {
     set_place_for_every_player
     min_distance_to_players 6
     max_distance_to_players 8
   }
+endif
 create_object ROCK
 {
    number_of_objects  9999
