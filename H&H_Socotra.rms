@@ -44,6 +44,8 @@ endif
 if ADMIN_RESTART
 <PLAYER_SETUP>
 guard_state SABOTEUR AMOUNT_GOLD 0 1
+else
+guard_state KING AMOUNT_GOLD 0 1
 endif
 <PLAYER_SETUP>
   random_placement 
@@ -57,7 +59,6 @@ percent_chance 50
 #define POUST
 end_random
 
-guard_state KING AMOUNT_GOLD 0 1
 
 <LAND_GENERATION>
 base_terrain LEAVES
