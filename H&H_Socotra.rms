@@ -18,7 +18,33 @@ override_map_size 172
 elseif LUDIKRIS_MAP
 override_map_size 400
 endif
-
+if ANTIQUITY_MODE
+#define ADMIN_RESTART
+elseif DEATH_MATCH
+#define ADMIN_RESTART
+elseif CAPTURE_THE_RELIC
+#define ADMIN_RESTART
+elseif REGICIDE
+#define ADMIN_RESTART
+elseif TURBO_RANDOM_MAP
+#define ADMIN_RESTART
+elseif KING_OT_HILL
+#define ADMIN_RESTART
+elseif WONDER_RACE
+#define ADMIN_RESTART
+elseif DEFEND_WONDER
+#define ADMIN_RESTART
+elseif EMPIRE_WARS
+#define ADMIN_RESTART
+elseif BATTLE_ROYALE
+#define ADMIN_RESTART
+elseif SUDDEN_DEATH
+#define ADMIN_RESTART
+endif
+if ADMIN_RESTART
+<PLAYER_SETUP>
+guard_state SABOTEUR AMOUNT_GOLD 0 1
+endif
 <PLAYER_SETUP>
   random_placement 
 	ai_info_map_type ARABIA 0 0 0
