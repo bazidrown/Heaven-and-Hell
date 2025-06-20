@@ -618,6 +618,8 @@ create_object DLC_ELEPHANT
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    19
+  actor_area 1
+  actor_area_radius 10
 }
 
 create_object DLC_RHINO
@@ -627,6 +629,7 @@ create_object DLC_RHINO
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    19
+  avoid_actor_area 1
 }
 
 create_object DLC_ZEBRA
@@ -637,7 +640,7 @@ create_object DLC_ZEBRA
   set_loose_grouping
   set_gaia_object_only
   min_distance_to_players    14
-  max_distance_to_players    17
+  max_distance_to_players    14
   avoid_forest_zone 3
 }
 
@@ -792,7 +795,7 @@ create_object DLC_ZEBRA
   set_gaia_object_only
   place_on_specific_land_id 2
   min_distance_to_players    14
-  max_distance_to_players    17
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -946,7 +949,7 @@ create_object DLC_ZEBRA
   set_loose_grouping
   set_gaia_object_only
   min_distance_to_players    14
-  max_distance_to_players    17
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1100,7 +1103,7 @@ create_object DLC_ZEBRA
   set_loose_grouping
   set_gaia_object_only
   min_distance_to_players    14
-  max_distance_to_players    17
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1254,7 +1257,7 @@ create_object DLC_ZEBRA
   set_loose_grouping
   set_gaia_object_only
   min_distance_to_players    14
-  max_distance_to_players    17
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1408,7 +1411,7 @@ create_object DLC_ZEBRA
   set_loose_grouping
   set_gaia_object_only
   min_distance_to_players    14
-  max_distance_to_players    17
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1562,7 +1565,7 @@ create_object DLC_ZEBRA
   set_loose_grouping
   set_gaia_object_only
   min_distance_to_players    14
-  max_distance_to_players    17
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1716,7 +1719,7 @@ create_object DLC_ZEBRA
   set_loose_grouping
   set_gaia_object_only
   min_distance_to_players    14
-  max_distance_to_players    17
+  max_distance_to_players    14
 }
 
 if REGICIDE
