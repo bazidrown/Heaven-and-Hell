@@ -2,14 +2,16 @@
     direct_placement
     nomad_resources
     ai_info_map_type ARENA 0 0 0
-
+#const RAINFORESTGRASS 83
+#const LEAFJG 77
+#const FUNGUSROAD 75
 <LAND_GENERATION>
 base_terrain DLC_RAINFOREST
 
 /* MIDDLE */
 create_land
 {
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_position 50 50
     land_percent 65
     base_size                     10
@@ -25,7 +27,7 @@ create_land
 {
     assign_to_player 1
     land_id 1
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 25 25
@@ -37,7 +39,7 @@ create_land
 {
     assign_to_player 2
     land_id 2
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 75 75
@@ -49,7 +51,7 @@ create_land
 {
     assign_to_player 3
     land_id 3
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 25 75
@@ -61,7 +63,7 @@ create_land
 {
     assign_to_player 4
     land_id 4
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 75 25
@@ -73,7 +75,7 @@ create_land
 {
     assign_to_player 5
     land_id 5
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 15 50
@@ -85,7 +87,7 @@ create_land
 {
     assign_to_player 6
     land_id 6
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 85 50
@@ -97,7 +99,7 @@ create_land
 {
     assign_to_player 7
     land_id 7
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 50 15
@@ -109,7 +111,7 @@ create_land
 {
     assign_to_player 8
     land_id 8
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 50 85
@@ -123,7 +125,7 @@ create_land
 {
     assign_to_player 3
     land_id 9
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -139,7 +141,7 @@ create_land
 {
     assign_to_player 1
     land_id 13
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -155,7 +157,7 @@ create_land
 {
     assign_to_player 2
     land_id 11
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     land_position 25 75
     base_size                        12
@@ -172,7 +174,7 @@ create_land
 {
     assign_to_player 3
     land_id 9
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -188,7 +190,7 @@ create_land
 {
     assign_to_player 4
     land_id 13
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -204,7 +206,7 @@ create_land
 {
     assign_to_player 1
     land_id 11
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -220,7 +222,7 @@ create_land
 {
     assign_to_player 5
     land_id 15
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -236,7 +238,7 @@ create_land
 {
     assign_to_player 2
     land_id 12
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -253,7 +255,7 @@ create_land
 {
     assign_to_player 3
     land_id 9
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -269,7 +271,7 @@ create_land
 {
     assign_to_player 4
     land_id 13
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -285,7 +287,7 @@ create_land
 {
     assign_to_player 2
     land_id 11
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -301,7 +303,7 @@ create_land
 {
     assign_to_player 1
     land_id 15
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -317,7 +319,7 @@ create_land
 {
     assign_to_player 5
     land_id 10
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -333,7 +335,7 @@ create_land
 {
     assign_to_player 6
     land_id 12
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -349,7 +351,7 @@ create_land
 {
     assign_to_player 7
     land_id 16
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -366,7 +368,7 @@ create_land
 {
     assign_to_player 2
     land_id 9
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -382,7 +384,7 @@ create_land
 {
     assign_to_player 1
     land_id 13
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -398,7 +400,7 @@ create_land
 {
     assign_to_player 4
     land_id 11
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -414,7 +416,7 @@ create_land
 {
     assign_to_player 3
     land_id 15
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -430,7 +432,7 @@ create_land
 {
     assign_to_player 8
     land_id 10
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -446,7 +448,7 @@ create_land
 {
     assign_to_player 6
     land_id 12
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -462,7 +464,7 @@ create_land
 {
     assign_to_player 7
     land_id 14
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -478,7 +480,7 @@ create_land
 {
     assign_to_player 5
     land_id 16
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -495,10 +497,50 @@ create_terrain DLC_JUNGLEGRASS
 {
   land_percent 10
   set_avoid_player_start_areas
-  base_terrain SNOW
+  base_terrain RAINFORESTGRASS
   spacing_to_other_terrain_types 15
 }
-
+create_terrain LEAFJG
+{
+  land_percent 10
+  number_of_clumps 25
+  terrain_mask 1
+  base_terrain RAINFORESTGRASS
+}
+create_terrain LEAVES
+{
+  land_percent 2
+  number_of_clumps 10
+  terrain_mask 1
+  base_terrain DLC_JUNGLEGRASS
+}
+create_terrain FUNGUSROAD
+{
+  land_percent 1
+  number_of_clumps 4
+  terrain_mask 1
+  base_terrain RAINFORESTGRASS
+}
+create_terrain FUNGUSROAD
+{
+  land_percent 1
+  number_of_clumps 4
+  terrain_mask 1
+  base_terrain RAINFORESTGRASS
+}
+create_terrain JUNGLE
+{
+  land_percent 20
+  number_of_clumps 400
+  base_terrain DLC_RAINFOREST
+}
+create_terrain RAINFORESTGRASS
+{
+  land_percent 20
+  number_of_clumps 400
+  terrain_mask 1
+  base_terrain DLC_RAINFOREST
+}
 <OBJECTS_GENERATION>
 /* *************************************************************** PLAYER 1 */
 create_object VILLAGER
