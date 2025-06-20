@@ -29,6 +29,7 @@ create_land
     land_percent 0
     base_size 15
     land_position 25 25
+	number_of_tiles 500
 }
 
 /* LAND 2 */
@@ -40,6 +41,7 @@ create_land
     land_percent 0
     base_size 15
     land_position 75 75
+	number_of_tiles 500
 }
 
 /* LAND 3 */
@@ -51,6 +53,7 @@ create_land
     land_percent 0
     base_size 15
     land_position 25 75
+	number_of_tiles 500
 }
 
 /* LAND 4 */
@@ -62,6 +65,7 @@ create_land
     land_percent 0
     base_size 15
     land_position 75 25
+	number_of_tiles 500
 }
 
 /* LAND 5 */
@@ -73,6 +77,7 @@ create_land
     land_percent 0
     base_size 15
     land_position 15 50
+	number_of_tiles 500
 }
 
 /* LAND 6 */
@@ -84,6 +89,7 @@ create_land
     land_percent 0
     base_size 15
     land_position 85 50
+	number_of_tiles 500
 }
 
 /* LAND 7 */
@@ -95,6 +101,7 @@ create_land
     land_percent 0
     base_size 15
     land_position 50 15
+	number_of_tiles 500
 }
 
 /* LAND 8 */
@@ -106,6 +113,7 @@ create_land
     land_percent 0
     base_size 15
     land_position 50 85
+	number_of_tiles 500
 }
 
 /* ********************************************************************** WALLS GO HERE */
