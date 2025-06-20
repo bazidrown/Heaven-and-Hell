@@ -45,13 +45,12 @@ if ADMIN_RESTART
 <PLAYER_SETUP>
 guard_state SABOTEUR AMOUNT_GOLD 0 1
 else
-guard_state KING AMOUNT_GOLD 0 1
-endif
 <PLAYER_SETUP>
   random_placement 
 	ai_info_map_type ARABIA 0 0 0
 
-
+guard_state KING AMOUNT_GOLD 0 1
+endif
 start_random
 percent_chance 50
 #define SAVCA
