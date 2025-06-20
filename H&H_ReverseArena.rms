@@ -2,14 +2,19 @@
     direct_placement
     nomad_resources
     ai_info_map_type ARENA 0 0 0
-
+#const RAINFORESTGRASS 83
+#const LEAFJG 77
+#const FUNGUSROAD 75
+#const SMOKE 1308
+#const FLAME_B 1334
+#const DLC_WETROCKB 82
 <LAND_GENERATION>
 base_terrain DLC_RAINFOREST
 
 /* MIDDLE */
 create_land
 {
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_position 50 50
     land_percent 65
     base_size                     10
@@ -25,10 +30,11 @@ create_land
 {
     assign_to_player 1
     land_id 1
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 25 25
+	number_of_tiles 500
 }
 
 /* LAND 2 */
@@ -36,10 +42,11 @@ create_land
 {
     assign_to_player 2
     land_id 2
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 75 75
+	number_of_tiles 500
 }
 
 /* LAND 3 */
@@ -47,10 +54,11 @@ create_land
 {
     assign_to_player 3
     land_id 3
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 25 75
+	number_of_tiles 500
 }
 
 /* LAND 4 */
@@ -58,10 +66,11 @@ create_land
 {
     assign_to_player 4
     land_id 4
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 75 25
+	number_of_tiles 500
 }
 
 /* LAND 5 */
@@ -69,10 +78,11 @@ create_land
 {
     assign_to_player 5
     land_id 5
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 15 50
+	number_of_tiles 500
 }
 
 /* LAND 6 */
@@ -80,10 +90,11 @@ create_land
 {
     assign_to_player 6
     land_id 6
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 85 50
+	number_of_tiles 500
 }
 
 /* LAND 7 */
@@ -91,10 +102,11 @@ create_land
 {
     assign_to_player 7
     land_id 7
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 50 15
+	number_of_tiles 500
 }
 
 /* LAND 8 */
@@ -102,10 +114,11 @@ create_land
 {
     assign_to_player 8
     land_id 8
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size 15
     land_position 50 85
+	number_of_tiles 500
 }
 
 /* ********************************************************************** WALLS GO HERE */
@@ -115,7 +128,7 @@ create_land
 {
     assign_to_player 3
     land_id 9
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -131,7 +144,7 @@ create_land
 {
     assign_to_player 1
     land_id 13
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -147,7 +160,7 @@ create_land
 {
     assign_to_player 2
     land_id 11
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     land_position 25 75
     base_size                        12
@@ -164,7 +177,7 @@ create_land
 {
     assign_to_player 3
     land_id 9
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -180,7 +193,7 @@ create_land
 {
     assign_to_player 4
     land_id 13
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -196,7 +209,7 @@ create_land
 {
     assign_to_player 1
     land_id 11
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -212,7 +225,7 @@ create_land
 {
     assign_to_player 5
     land_id 15
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -228,7 +241,7 @@ create_land
 {
     assign_to_player 2
     land_id 12
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -245,7 +258,7 @@ create_land
 {
     assign_to_player 3
     land_id 9
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -261,7 +274,7 @@ create_land
 {
     assign_to_player 4
     land_id 13
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -277,7 +290,7 @@ create_land
 {
     assign_to_player 2
     land_id 11
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -293,7 +306,7 @@ create_land
 {
     assign_to_player 1
     land_id 15
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -309,7 +322,7 @@ create_land
 {
     assign_to_player 5
     land_id 10
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -325,7 +338,7 @@ create_land
 {
     assign_to_player 6
     land_id 12
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -341,7 +354,7 @@ create_land
 {
     assign_to_player 7
     land_id 16
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -358,7 +371,7 @@ create_land
 {
     assign_to_player 2
     land_id 9
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -374,7 +387,7 @@ create_land
 {
     assign_to_player 1
     land_id 13
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -390,7 +403,7 @@ create_land
 {
     assign_to_player 4
     land_id 11
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -406,7 +419,7 @@ create_land
 {
     assign_to_player 3
     land_id 15
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -422,7 +435,7 @@ create_land
 {
     assign_to_player 8
     land_id 10
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -438,7 +451,7 @@ create_land
 {
     assign_to_player 6
     land_id 12
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -454,7 +467,7 @@ create_land
 {
     assign_to_player 7
     land_id 14
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -470,7 +483,7 @@ create_land
 {
     assign_to_player 5
     land_id 16
-    terrain_type SNOW
+    terrain_type RAINFORESTGRASS
     land_percent 0
     base_size                        12
     left_border                      3
@@ -487,8 +500,49 @@ create_terrain DLC_JUNGLEGRASS
 {
   land_percent 10
   set_avoid_player_start_areas
-  base_terrain SNOW
+  base_terrain RAINFORESTGRASS
   spacing_to_other_terrain_types 15
+}
+create_terrain LEAFJG
+{
+  land_percent 10
+  number_of_clumps 25
+  terrain_mask 1
+  base_terrain RAINFORESTGRASS
+}
+create_terrain LEAVES
+{
+  land_percent 2
+  number_of_clumps 10
+  terrain_mask 1
+  base_terrain DLC_JUNGLEGRASS
+}
+create_terrain FUNGUSROAD
+{
+  land_percent 1
+  number_of_clumps 4
+  terrain_mask 1
+  base_terrain RAINFORESTGRASS
+}
+create_terrain FUNGUSROAD
+{
+  land_percent 1
+  number_of_clumps 4
+  terrain_mask 1
+  base_terrain RAINFORESTGRASS
+}
+create_terrain JUNGLE
+{
+  land_percent 20
+  number_of_clumps 400
+  base_terrain DLC_RAINFOREST
+}
+create_terrain RAINFORESTGRASS
+{
+  land_percent 20
+  number_of_clumps 400
+  terrain_mask 1
+  base_terrain DLC_RAINFOREST
 }
 
 <OBJECTS_GENERATION>
@@ -531,7 +585,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    12
   max_distance_to_players    16
-  min_distance_group_placement  15
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 
@@ -544,7 +598,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    17
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -557,7 +611,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    25
   max_distance_to_players    35
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   max_distance_to_other_zones  10
   avoid_forest_zone 3
 } 
@@ -571,7 +625,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    14
   max_distance_to_players    17
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   max_distance_to_other_zones 10
   place_on_forest_zone
 }
@@ -584,7 +638,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    23
   max_distance_to_players    26
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -602,7 +656,7 @@ create_object DLC_GOAT
    place_on_specific_land_id  1
    number_of_objects 2
    number_of_groups 2
-   min_distance_group_placement  10
+   min_distance_group_placement  3
    set_loose_grouping
    set_gaia_object_only
    min_distance_to_players    12
@@ -616,8 +670,11 @@ create_object DLC_ELEPHANT
   number_of_objects          1
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
+  actor_area 1
+  actor_area_radius 10
+  min_distance_group_placement  3
 }
 
 create_object DLC_RHINO
@@ -625,8 +682,10 @@ create_object DLC_RHINO
   place_on_specific_land_id   1
   number_of_objects           1
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
+  avoid_actor_area 1
+  min_distance_group_placement  3
 }
 
 create_object DLC_ZEBRA
@@ -636,9 +695,8 @@ create_object DLC_ZEBRA
   group_placement_radius     3
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    14
-  max_distance_to_players    17
-  avoid_forest_zone 3
+  min_distance_to_players    10
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -688,7 +746,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    12
   max_distance_to_players    16
-  min_distance_group_placement  15
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 
@@ -701,7 +759,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    17
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -714,7 +772,7 @@ create_object GOLD
   place_on_specific_land_id 2
   min_distance_to_players    25
   max_distance_to_players    35
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 } 
 
@@ -727,7 +785,7 @@ create_object STONE
   place_on_specific_land_id 2
   min_distance_to_players    14
   max_distance_to_players    17
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 create_object STONE
@@ -739,7 +797,7 @@ create_object STONE
   place_on_specific_land_id 2
   min_distance_to_players    23
   max_distance_to_players    26
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -756,7 +814,7 @@ create_object DLC_GOAT
 {
    number_of_objects 2
    number_of_groups 2
-   min_distance_group_placement  10
+   min_distance_group_placement  3
    set_loose_grouping
    set_gaia_object_only
    place_on_specific_land_id 2
@@ -771,8 +829,8 @@ create_object DLC_ELEPHANT
   set_loose_grouping
   set_gaia_object_only
   place_on_specific_land_id 2
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_RHINO
@@ -780,8 +838,8 @@ create_object DLC_RHINO
   number_of_objects          1
   set_gaia_object_only
   place_on_specific_land_id 2
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_ZEBRA
@@ -791,8 +849,8 @@ create_object DLC_ZEBRA
   set_loose_grouping
   set_gaia_object_only
   place_on_specific_land_id 2
-  min_distance_to_players    14
-  max_distance_to_players    17
+  min_distance_to_players    12
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -842,7 +900,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    12
   max_distance_to_players    16
-  min_distance_group_placement  15
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 
@@ -855,7 +913,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    17
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -868,7 +926,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    25
   max_distance_to_players    35
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 } 
 
@@ -881,7 +939,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    14
   max_distance_to_players    17
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 create_object STONE
@@ -893,7 +951,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    23
   max_distance_to_players    26
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -911,7 +969,7 @@ create_object DLC_GOAT
    place_on_specific_land_id  3
    number_of_objects 2
    number_of_groups 2
-   min_distance_group_placement  10   
+   min_distance_group_placement  3   
    set_loose_grouping
    set_gaia_object_only
    min_distance_to_players    12
@@ -925,8 +983,8 @@ create_object DLC_ELEPHANT
   number_of_objects          1
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_RHINO
@@ -934,8 +992,8 @@ create_object DLC_RHINO
   place_on_specific_land_id  3
   number_of_objects          1
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_ZEBRA
@@ -945,8 +1003,8 @@ create_object DLC_ZEBRA
   group_placement_radius     3
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    14
-  max_distance_to_players    17
+  min_distance_to_players    12
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -996,7 +1054,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    12
   max_distance_to_players    16
-  min_distance_group_placement  15
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 
@@ -1009,7 +1067,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    17
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1022,7 +1080,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    25
   max_distance_to_players    35
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 } 
 
@@ -1035,7 +1093,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    14
   max_distance_to_players    17
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 create_object STONE
@@ -1047,7 +1105,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    23
   max_distance_to_players    26
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1065,7 +1123,7 @@ create_object DLC_GOAT
    place_on_specific_land_id  4
    number_of_objects 2
    number_of_groups 2
-   min_distance_group_placement  10
+   min_distance_group_placement  3
    set_loose_grouping
    set_gaia_object_only
    min_distance_to_players    12
@@ -1079,8 +1137,8 @@ create_object DLC_ELEPHANT
   number_of_objects          1
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_RHINO
@@ -1088,8 +1146,8 @@ create_object DLC_RHINO
   place_on_specific_land_id  4
   number_of_objects          1
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_ZEBRA
@@ -1099,8 +1157,8 @@ create_object DLC_ZEBRA
   group_placement_radius     3
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    14
-  max_distance_to_players    17
+  min_distance_to_players    12
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1150,7 +1208,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    12
   max_distance_to_players    16
-  min_distance_group_placement  15
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 
@@ -1163,7 +1221,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    17
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1176,7 +1234,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    25
   max_distance_to_players    35
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 } 
 
@@ -1189,7 +1247,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    14
   max_distance_to_players    17
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 create_object STONE
@@ -1201,7 +1259,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    23
   max_distance_to_players    26
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1219,7 +1277,7 @@ create_object DLC_GOAT
    place_on_specific_land_id  5
    number_of_objects 2
    number_of_groups 2
-   min_distance_group_placement  10
+   min_distance_group_placement  3
    set_loose_grouping
    set_gaia_object_only
    min_distance_to_players    12
@@ -1233,8 +1291,8 @@ create_object DLC_ELEPHANT
   number_of_objects          1
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_RHINO
@@ -1242,8 +1300,8 @@ create_object DLC_RHINO
   place_on_specific_land_id  5
   number_of_objects          1
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_ZEBRA
@@ -1253,8 +1311,8 @@ create_object DLC_ZEBRA
   group_placement_radius     3
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    14
-  max_distance_to_players    17
+  min_distance_to_players    12
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1304,7 +1362,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    12
   max_distance_to_players    16
-  min_distance_group_placement  15
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 
@@ -1317,7 +1375,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    17
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1330,7 +1388,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    25
   max_distance_to_players    35
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 } 
 
@@ -1343,7 +1401,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    14
   max_distance_to_players    17
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 create_object STONE
@@ -1355,7 +1413,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    23
   max_distance_to_players    26
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1373,7 +1431,7 @@ create_object DLC_GOAT
    place_on_specific_land_id  6
    number_of_objects 2
    number_of_groups 2
-   min_distance_group_placement  10
+   min_distance_group_placement  3
    set_loose_grouping
    set_gaia_object_only
    min_distance_to_players    12
@@ -1387,8 +1445,8 @@ create_object DLC_ELEPHANT
   number_of_objects          1
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_RHINO
@@ -1396,8 +1454,8 @@ create_object DLC_RHINO
   place_on_specific_land_id  6
   number_of_objects          1
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_ZEBRA
@@ -1407,8 +1465,8 @@ create_object DLC_ZEBRA
   group_placement_radius     3
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    14
-  max_distance_to_players    17
+  min_distance_to_players    12
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1458,7 +1516,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    12
   max_distance_to_players    16
-  min_distance_group_placement  15
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 
@@ -1471,7 +1529,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    17
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1484,7 +1542,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    25
   max_distance_to_players    35
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 } 
 
@@ -1497,7 +1555,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    14
   max_distance_to_players    17
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 create_object STONE
@@ -1509,7 +1567,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    23
   max_distance_to_players    26
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1527,7 +1585,7 @@ create_object DLC_GOAT
    place_on_specific_land_id  7
    number_of_objects 2
    number_of_groups 2
-   min_distance_group_placement  10
+   min_distance_group_placement  3
    set_loose_grouping
    set_gaia_object_only
    min_distance_to_players    12
@@ -1541,8 +1599,8 @@ create_object DLC_ELEPHANT
   number_of_objects          1
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_RHINO
@@ -1550,8 +1608,8 @@ create_object DLC_RHINO
   place_on_specific_land_id  7
   number_of_objects          1
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_ZEBRA
@@ -1561,8 +1619,8 @@ create_object DLC_ZEBRA
   group_placement_radius     3
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    14
-  max_distance_to_players    17
+  min_distance_to_players    12
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1612,7 +1670,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    12
   max_distance_to_players    16
-  min_distance_group_placement  15
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 
@@ -1625,7 +1683,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    16
   max_distance_to_players    17
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1638,7 +1696,7 @@ create_object GOLD
   set_gaia_object_only
   min_distance_to_players    25
   max_distance_to_players    35
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   avoid_forest_zone 3
 } 
 
@@ -1651,7 +1709,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    14
   max_distance_to_players    17
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   place_on_forest_zone
 }
 create_object STONE
@@ -1663,7 +1721,7 @@ create_object STONE
   set_gaia_object_only
   min_distance_to_players    23
   max_distance_to_players    26
-  min_distance_group_placement  7
+  min_distance_group_placement  3
   avoid_forest_zone 3
 }
 
@@ -1681,7 +1739,7 @@ create_object DLC_GOAT
    place_on_specific_land_id  8
    number_of_objects 2
    number_of_groups 2
-   min_distance_group_placement  10
+   min_distance_group_placement  3
    set_loose_grouping
    set_gaia_object_only
    min_distance_to_players    12
@@ -1695,8 +1753,8 @@ create_object DLC_ELEPHANT
   number_of_objects          1
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_RHINO
@@ -1704,8 +1762,8 @@ create_object DLC_RHINO
   place_on_specific_land_id  8
   number_of_objects          1
   set_gaia_object_only
-  min_distance_to_players    16
-  max_distance_to_players    19
+  min_distance_to_players    14
+  max_distance_to_players    16
 }
 
 create_object DLC_ZEBRA
@@ -1715,8 +1773,8 @@ create_object DLC_ZEBRA
   group_placement_radius     3
   set_loose_grouping
   set_gaia_object_only
-  min_distance_to_players    14
-  max_distance_to_players    17
+  min_distance_to_players    12
+  max_distance_to_players    14
 }
 
 if REGICIDE
@@ -1853,7 +1911,7 @@ create_object WALL
 create_object RELIC 
 {
     number_of_objects             5
-    min_distance_group_placement  10
+    min_distance_group_placement  3
     min_distance_to_players       35
     avoid_forest_zone 5
 }
@@ -1865,7 +1923,7 @@ create_object GOLD
   group_placement_radius     2
   set_tight_grouping
   set_gaia_object_only
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   min_distance_to_players 35
   avoid_forest_zone 5
 }
@@ -1878,7 +1936,7 @@ create_object STONE
   group_placement_radius     2
   set_tight_grouping
   set_gaia_object_only
-  min_distance_group_placement  10
+  min_distance_group_placement  3
   min_distance_to_players 35
   avoid_forest_zone 5
 }
