@@ -4582,156 +4582,6 @@ endif
 
 /* ****************************************************** */
 <TERRAIN_GENERATION>
-/* woodlines per player */
-
-  create_terrain DLC_DIRT4
-{
-  base_terrain LAYER_C
-  land_percent 100
-  number_of_clumps 1
-  spacing_to_other_terrain_types 2
-}
-  create_terrain DLC_FORESTDEAD
-{
-  base_terrain DLC_DIRT4
-  if 2_PLAYER_GAME
-  land_percent 5
-  else
-  land_percent 7
-  endif
-  number_of_clumps 10
-  set_scale_by_size
-}
-  create_terrain DLC_BLACK
-{
-  base_terrain DLC_DIRT4
-  land_percent 100
-  number_of_clumps 3699
-}
-  create_terrain DLC_BLACK
-{
-  base_terrain DLC_DIRT4
-  land_percent 100
-  number_of_clumps 3699
-}
-
-  create_terrain DLC_BLACK
-{
-  base_terrain DLC_DIRT4
-  land_percent 100
-  number_of_clumps 3699
-}
-
-  create_terrain DLC_DIRT4
-{
-  base_terrain LAYER_C
-  land_percent 100
-  number_of_clumps 1
-  spacing_to_other_terrain_types 2
-}
-  create_terrain DLC_FORESTDEAD
-{
-  base_terrain DLC_DIRT4
-  if 2_PLAYER_GAME
-  land_percent 5
-  else
-  land_percent 7
-  endif
-  number_of_clumps 10
-  set_scale_by_size
-}
-  create_terrain DLC_BLACK
-{
-  base_terrain DLC_DIRT4
-  land_percent 100
-  number_of_clumps 3699
-}
-  create_terrain DLC_BLACK
-{
-  base_terrain DLC_DIRT4
-  land_percent 100
-  number_of_clumps 3699
-}
-
-  create_terrain DLC_BLACK
-{
-  base_terrain DLC_DIRT4
-  land_percent 100
-  number_of_clumps 3699
-}
-  create_terrain LAYER_C
-{
-  base_terrain DLC_BLACK
-  land_percent 100
-  number_of_clumps 3699
-}
-  create_terrain LAYER_C
-{
-  base_terrain DLC_BLACK
-  land_percent 100
-  number_of_clumps 3699
-}  create_terrain LAYER_C
-{
-  base_terrain DLC_BLACK
-  land_percent 100
-  number_of_clumps 3699
-}
-if MICHI_DIRECTFOREST
-
-  create_terrain DLC_MOORLAND
-{
-  base_terrain LAYER_C
-  land_percent 100
-  number_of_clumps 1000
-}
-
-  create_terrain DLC_MOORLAND
-{
-  base_terrain LAYER_C
-  land_percent 100
-  number_of_clumps 1000
-}
-
-else
-
-  create_terrain DLC_FORESTDEAD
-{
-  base_terrain LAYER_C
-  land_percent 100
-  number_of_clumps 100
-  spacing_to_other_terrain_types 3
-}
-
-  create_terrain DLC_FORESTDEAD
-{
-  base_terrain LAYER_C
-  land_percent 100
-  number_of_clumps 100
-  spacing_to_other_terrain_types 3
-}
-
-  create_terrain DLC_FORESTDEAD
-{
-  base_terrain LAYER_C
-  land_percent 100
-  number_of_clumps 100
-  spacing_to_other_terrain_types 3
-}
-
-  create_terrain DLC_FORESTDEAD
-{
-  base_terrain LAYER_C
-  land_percent 100
-  number_of_clumps 100
-  spacing_to_other_terrain_types 3
-}
-
-endif
-
-
-
-
-
 if MICHI_SPMARKETS
 
 	if PH_FROZEN
@@ -4921,6 +4771,157 @@ if MICHI_SPMARKETS
 
 	endif
 endif
+
+/* woodlines per player */
+
+  create_terrain DLC_DIRT4
+{
+  base_terrain LAYER_C
+  land_percent 100
+  number_of_clumps 1
+  spacing_to_other_terrain_types 2
+}
+  create_terrain DLC_FORESTDEAD
+{
+  base_terrain DLC_DIRT4
+  if 2_PLAYER_GAME
+  land_percent 5
+  else
+  land_percent 7
+  endif
+  number_of_clumps 10
+  set_scale_by_size
+}
+  create_terrain DLC_BLACK
+{
+  base_terrain DLC_DIRT4
+  land_percent 100
+  number_of_clumps 3699
+}
+  create_terrain DLC_BLACK
+{
+  base_terrain DLC_DIRT4
+  land_percent 100
+  number_of_clumps 3699
+}
+
+  create_terrain DLC_BLACK
+{
+  base_terrain DLC_DIRT4
+  land_percent 100
+  number_of_clumps 3699
+}
+
+  create_terrain DLC_DIRT4
+{
+  base_terrain LAYER_C
+  land_percent 100
+  number_of_clumps 1
+  spacing_to_other_terrain_types 2
+}
+  create_terrain DLC_FORESTDEAD
+{
+  base_terrain DLC_DIRT4
+  if 2_PLAYER_GAME
+  land_percent 5
+  else
+  land_percent 7
+  endif
+  number_of_clumps 10
+  set_scale_by_size
+}
+  create_terrain DLC_BLACK
+{
+  base_terrain DLC_DIRT4
+  land_percent 100
+  number_of_clumps 3699
+}
+  create_terrain DLC_BLACK
+{
+  base_terrain DLC_DIRT4
+  land_percent 100
+  number_of_clumps 3699
+}
+
+  create_terrain DLC_BLACK
+{
+  base_terrain DLC_DIRT4
+  land_percent 100
+  number_of_clumps 3699
+}
+  create_terrain LAYER_C
+{
+  base_terrain DLC_BLACK
+  land_percent 100
+  number_of_clumps 3699
+}
+  create_terrain LAYER_C
+{
+  base_terrain DLC_BLACK
+  land_percent 100
+  number_of_clumps 3699
+}  create_terrain LAYER_C
+{
+  base_terrain DLC_BLACK
+  land_percent 100
+  number_of_clumps 3699
+}
+if MICHI_DIRECTFOREST
+
+  create_terrain DLC_MOORLAND
+{
+  base_terrain LAYER_C
+  land_percent 100
+  number_of_clumps 1000
+}
+
+  create_terrain DLC_MOORLAND
+{
+  base_terrain LAYER_C
+  land_percent 100
+  number_of_clumps 1000
+}
+
+else
+
+  create_terrain DLC_FORESTDEAD
+{
+  base_terrain LAYER_C
+  land_percent 100
+  number_of_clumps 100
+  spacing_to_other_terrain_types 3
+}
+
+  create_terrain DLC_FORESTDEAD
+{
+  base_terrain LAYER_C
+  land_percent 100
+  number_of_clumps 100
+  spacing_to_other_terrain_types 3
+}
+
+  create_terrain DLC_FORESTDEAD
+{
+  base_terrain LAYER_C
+  land_percent 100
+  number_of_clumps 100
+  spacing_to_other_terrain_types 3
+}
+
+  create_terrain DLC_FORESTDEAD
+{
+  base_terrain LAYER_C
+  land_percent 100
+  number_of_clumps 100
+  spacing_to_other_terrain_types 3
+}
+
+endif
+
+
+
+
+
 
 
 /* PRIMARY PATCH */
